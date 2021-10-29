@@ -4,8 +4,8 @@
     border: 3px solid black;
     background-color: black;
     position: relative;
-    top: 333.5px;
-    left: 750px;
+    top: calc(50% - 50px);
+    left: calc(50% - 50px);
 }
 .same {
     width: 300px;
