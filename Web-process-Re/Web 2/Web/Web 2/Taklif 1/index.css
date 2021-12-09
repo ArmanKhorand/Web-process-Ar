@@ -1,0 +1,52 @@
+.over {
+    background-color: cornflowerblue;
+    width: 750px;
+    height: 590px;
+    position: relative;
+    top: 80px;
+    left: 310px;
+}
+.ff1 {
+    background-color: none;
+    color: black;
+    position: absolute;
+    top: calc(50% - 175px);
+    width: 750px;
+    height: 590px;
+}
+.boxes {
+    background-color: non;
+    width: 750px;
+    height: 30px;
+}
+.ff1:hover div:nth-child(1) {
+    background-color: red;
+    color: red;
+}
+.ff1:hover div:nth-child(2) {
+    background-color: orange;
+    color: orange;
+}
+.ff1:hover div:nth-child(3) {
+    background-color: yellow;
+    color: yellow;
+}
+.ff1:hover div:nth-child(4) {
+    background-color: green;
+    color: green;
+}
+.ff1:hover div:nth-child(5) {
+    background-color: blue;
+    color: blue;
+}
+.ff1:hover div:nth-child(6) {
+    background-color: indigo;
+    color:indigo;
+}
+.ff1:hover div:nth-child(7) {
+    background-color: purple;
+    color: purple;
+}
+h1 {
+    text-align: center;
+}

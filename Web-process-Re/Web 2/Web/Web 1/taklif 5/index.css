@@ -1,0 +1,35 @@
+th {
+    color: darkorange;
+    background-color: ghostwhite;
+}
+td {
+    color:rgb(240, 236, 230);
+    background-color: rgb(33, 104, 175);
+}
+h1 {
+    color:red;
+    background-color: red;
+}
+h2 {
+    color: orange;
+    background-color: orange;
+}
+h3 {
+    color: yellow;
+    background-color: yellow;
+}
+h4 {
+    color: limegreen;
+    background-color: limegreen;
+}
+h5 {
+    color: mediumblue;
+    background-color: mediumblue;
+}
+h6 {
+    color: orchid;
+    background-color: orchid;
+}
+body {
+    background-color: black;
+}

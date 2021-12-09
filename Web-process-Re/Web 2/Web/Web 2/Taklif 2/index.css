@@ -1,0 +1,86 @@
+.box1 {
+    width: 120px;
+    height: 120px;
+    background-color: gray;
+    font-size: 30px;
+    text-align: center;
+    animation: 5s move1 infinite;
+    position: fixed;
+    top: 0;
+    left: calc(50% - 60px);
+}
+.box2 {
+    width: 120px;
+    height: 120px;
+    background-color: teal;
+    font-size: 30px;
+    text-align: center;
+    animation: move2 8s infinite;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+@keyframes move1 {
+    0% {
+        top: 0; 
+        left: calc(50% - 60px)
+    }
+    25% {
+        top: calc(50% - 60px);
+        left: 0;
+        border-radius: 100%;
+        background-color: red;
+        color: white;
+    }
+    50% {
+        top: calc(100% - 120px);
+        left: calc(50% - 60px); 
+        border-radius: 0;
+        background-color: yellow; 
+        color: red 
+    }
+    75% {
+      top: calc(50% - 60px);
+      left: calc(100% - 120px);
+      border-radius: 100%; 
+      background-color: green;
+      color: yellow;  
+    }
+    100% {
+        top: 0; 
+        left: calc(50% - 60px);
+    }
+}
+@keyframes move2{
+    0% {
+        top: 0;
+        left: 0;
+        border-radius: 100%;
+    }
+    25% {
+        top: 0;
+        left: calc(100% - 120px);
+        background-color: black;
+        color: white;
+        border-radius: 0%;
+    }
+    50% {
+        top: calc(100% - 120px);
+        left: calc(100% - 120px);
+        background-color: blue;
+        color: yellow; 
+        border-radius: 100%;  
+    }
+    75% {
+        top: calc(100% - 120px);
+        left: 0;
+        background-color: orange;
+        color: gray;
+        border-radius: 0%;
+    }
+    100% {
+        top: 0;
+        left: 0;
+        border-radius: 100%;
+    }
+}
