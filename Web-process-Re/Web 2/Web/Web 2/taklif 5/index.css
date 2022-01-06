@@ -1,0 +1,10 @@
+.validation1 {
+    width: 45%;
+    border: 1px solid #242424;
+    padding: 10px;
+    display: flex;
+    margin: 20px;
+}
+body {
+    background-color: gray;
+}
