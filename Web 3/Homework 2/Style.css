@@ -1,0 +1,46 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+@font-face 
+{
+    font-family: Font-B;
+    src: url(./Roboto-Bold.ttf);
+}
+@font-face 
+{
+    font-family: Font-I;
+    src: url(./Roboto-Italic.ttf);
+}
+@font-face 
+{
+    font-family: Font-R;
+    src: url(./Roboto-Regular.ttf);
+}
+body 
+{
+    font-family: Font-R;
+    min-height: 100vh;
+    background: #e7e7e7;
+}
+.wrapper
+{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.typing-demo 
+{
+  width: 30ch;
+  animation: texttyping 7s steps(30) infinite, blink 0.9s infinite;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid #212121;
+  font-family: monospace, Font-R;
+  font-size: 2em;
+}
+@keyframes blink {50% {border: transparent;}}
+@keyframes texttyping {0%,90%,100%{width: 1px;}30%,60%{width: 30ch;}}
