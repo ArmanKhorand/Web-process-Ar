@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #242424;
+  color: white;
+  margin: 0%;
+  padding: 0%;
+  font-family: tinos;
+}
+@font-face {
+  font-family: tinos;
+  src: url(./buEzpoGnedXvwjX-Rt1s4C0f_Q.woff2);
+}
+.background-blend-mode {
+  text-align: center;
+}
+.ss1 {
+  text-decoration: underline;
+  font-size: 1.5em;
+  font-weight: bold;
+  font-style: italic;
+  text-transform: capitalize;
+  color: tomato;
+}
+.background-blend-mode-va {
+  text-align: left;
+  font-size: 3em;
+}
+li {
+  line-height: 2em;
+  font-size: 1em;
+  list-style-image: url(./favicon_16px.png);
+}
+.a1 {
+  margin-left: 60px;
+}
+.a2 {
+  margin-left: 55px;
+}
+.a3 {
+  margin-left: 65px;
+}
+.a4 {
+  margin-left: 59px;
+}
+.a5 {
+  margin-left: 60px;
+}
+.a6 {
+  margin-left: 62px;
+}
+.a7 {
+  margin-left: 28px;
+}
+.a8 {
+  margin-left: 35px;
+}
+.a9 {
+  margin-left: 66px;
+}
+.a10 {
+  margin-left: 28px;
+}
+.li-bt {
+  display: inline-block;
+  border-radius: 10px;
+  border: 2px solid black;
+  text-decoration: none;
+  text-align: center;
+  width: 100px;
+  height: 33px;
+  background-color: violet;
+  color: black;
+}
+.li-bt:hover {
+  background-color: rgb(236, 51, 236);
+}
+.li-bt:active {
+  background-color: violet;
+}
+.z1 {
+  margin-left: 40px;
+}
+.z2 {
+  margin-left: 140px;
+}
+.z3 {
+  margin-left: 152px;
+}
+.z4 {
+  margin-left: 146px;
+}
+.z5 {
+  margin-left: 149px;
+}
+.z6 {
+  margin-left: 150px;
+}
+.z7 {
+  margin-left: 120px;
+}
+.z8 {
+  margin-left: 132px;
+}
+.z9 {
+  margin-left: 168px;
+}
+.z10 {
+  margin-left: 133px;
+}

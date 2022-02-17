@@ -1,0 +1,126 @@
+body {
+  font-family: Soltan Adan 2line bold;
+}
+.total {
+  width: 560px;
+  height: 560px;
+  background-color: transparent;
+  outline: 3px solid black;
+  position: relative;
+  inset: 67.5px 0 0 403px;
+}
+.same {
+  width: 70px;
+  height: 70px;
+  background-color: black;
+  position: absolute;
+}
+.a1 {
+  inset: 0px 0px 0px 0px;
+}
+.a2 {
+  inset: 0px 0px 0px 140px;
+}
+.a3 {
+  inset: 0px 0px 0px 280px;
+}
+.a4 {
+  inset: 0px 0px 0px 420px;
+}
+.a5 {
+  inset: 70px 0px 0px 70px;
+}
+.a6 {
+  inset: 70px 0px 0px 210px;
+}
+.a7 {
+  inset: 70px 0px 0px 350px;
+}
+.a8 {
+  inset: 70px 0px 0px 490px;
+}
+.a9 {
+  inset: 140px 0px 0px 0px;
+}
+.a10 {
+  inset: 140px 0px 0px 140px;
+}
+.a11 {
+  inset: 140px 0px 0px 280px;
+}
+.a12 {
+  inset: 140px 0px 0px 420px;
+}
+.a13 {
+  inset: 210px 0px 0px 70px;
+}
+.a14 {
+  inset: 210px 0px 0px 210px;
+}
+.a15 {
+  inset: 210px 0px 0px 350px;
+}
+.a16 {
+  inset: 210px 0px 0px 490px;
+}
+.a17 {
+  inset: 280px 0px 0px 0px;
+}
+.a18 {
+  inset: 280px 0px 0px 140px;
+}
+.a19 {
+  inset: 280px 0px 0px 280px;
+}
+.a20 {
+  inset: 280px 0px 0px 420px;
+}
+.a21 {
+  inset: 350px 0px 0px 70px;
+}
+.a22 {
+  inset: 350px 0px 0px 210px;
+}
+.a23 {
+  inset: 350px 0px 0px 350px;
+}
+.a24 {
+  inset: 350px 0px 0px 490px;
+}
+.a25 {
+  inset: 420px 0px 0px 0px;
+}
+.a26 {
+  inset: 420px 0px 0px 140px;
+}
+.a27 {
+  inset: 420px 0px 0px 280px;
+}
+.a28 {
+  inset: 420px 0px 0px 420px;
+}
+.a29 {
+  inset: 490px 0px 0px 70px;
+}
+.a30 {
+  inset: 490px 0px 0px 210px;
+}
+.a31 {
+  inset: 490px 0px 0px 350px;
+}
+.a32 {
+  inset: 490px 0px 0px 490px;
+}
+.words {
+  position: fixed;
+  inset: 35px 0px 0px 350px;
+}
+.sameh1 {
+  margin-top: 36px;
+}
+.numbers {
+  font-size: 2.5em;
+  margin-top: -551px;
+  margin-left: 425px;
+  letter-spacing: 20px;
+}

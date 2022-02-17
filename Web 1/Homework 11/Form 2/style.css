@@ -1,0 +1,62 @@
+@font-face {
+  font-family: comfortable;
+  src: url(./Monaline.ttf);
+}
+* {
+  box-sizing: border-box;
+  font-family: century schoolbook;
+  font-size: 1em;
+}
+body {
+  background: lightgray;
+}
+.container {
+  color: white;
+  position: absolute;
+  width: 450px;
+  height: 500px;
+  top: calc(50% - 250px);
+  left: calc(50% - 225px);
+  padding: 20px;
+  border-radius: 55px 15px;
+  background: linear-gradient(#141e30, #243b55);
+}
+h1 {
+  font-size: 2em;
+}
+.container label {
+  display: block;
+  font-style: italic;
+  font-weight: 700;
+  line-height: 3em;
+}
+select {
+  background-image: linear-gradient(
+    to right,
+    #000000 0%,
+    #434343 51%,
+    #000000 100%
+  );
+}
+select {
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+}
+
+select:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+}
+option {
+  color: #242424;
+  background: linear-gradient(to right, #0f3443, #242);
+  text-align: justify;
+}
