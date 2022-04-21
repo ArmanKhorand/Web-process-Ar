@@ -1,0 +1,23 @@
+@font-face {
+    font-family: sh;
+    src: url(./Shabnam.woff2);
+}
+body {
+    font-family: sh;
+}
+p {
+    color: blueviolet;
+    font-size: 30px;
+}
+a {
+    display: inline-block;
+    font-family: sh;
+    padding: 20px;
+    margin: 10px 0px;
+    font-size: 30px;
+    font-weight: 600;
+    border: 4px solid #000;
+    text-decoration: none;
+    color: #fff;
+    background: blueviolet;    
+}

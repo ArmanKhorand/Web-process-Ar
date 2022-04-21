@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: font-bebas;
+    src: url(./Fonts/BebasNeue-Regular.ttf);
+}
+@font-face {
+    font-family: font-roboto;
+    src: url(./Fonts/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: font-roboto-slab;
+    src: url(./Fonts/RobotoSlab-Regular.ttf);
+}
+body {
+    min-height: 200vh;
+    font-family: font-roboto;
+}
+.paragraph {
+    font-size: 30px;
+    font-family: font-roboto-slab;
+    display: inline-block;
+    padding: 10px 30px;
+    text-align: center;
+    color: #1287f5;
+    font-weight: 700;
+}
+.links {
+    text-decoration: none;
+    color: #212121;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 30px;
+    text-align: center;
+    font-size: 24px;
+}
